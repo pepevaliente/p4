@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --coral: #FF7C7C;
+    --groc: #F6F4D9;
+    --morado: #877CFF;
+}
+body{
+    font-size: 20px;
+}
+header, nav, main, footer{
+    padding: 0 15vw;
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--coral);
+    color: var(--groc);
+    height: 8vh;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+/*NAV*/
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--morado);
+    height: 18vh;
+}
+nav a{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    color: var(--groc);
+    text-decoration: none;
+}
+nav img{
+    height: 94px;
+}
+/*MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--morado);
+    height: 58vh;
+}
+h1, h2 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 3em;
+    background: var(--coral);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6em;
+    height: 16vh;
+}
+nav a{
+    margin:0 100px;
+    padding:0 50px;
+}
